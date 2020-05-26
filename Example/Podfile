@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WQCTMediator_Example' do
+  pod 'WQCTMediator', :path => '../'
+
+  target 'WQCTMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
